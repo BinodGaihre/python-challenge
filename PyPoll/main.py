@@ -38,14 +38,14 @@ with open(file_to_load, 'r', newline='', encoding='utf-8') as election_data:
             candidate_vote_count_list[candidate_name] = 1
 print("Election Results \n----------------------")
 
-print(f'Total Votes:{total_votes}')    
+print(f'Total Votes:{total_votes}\n--------------------')    
 # Opening a text file to save the output
 with open(file_to_output, "w") as txt_file:
     output_writer = csv.writer(txt_file)
     txt_file.write(f"Election Results\n")
     txt_file.write(f'--------------------\n')
-    txt_file.write(f'Total Votes: {total_votes}\n')
-    # In the dictionay candidate vote count list candidate name as key and count as value and looping through it
+    txt_file.write(f'Total Votes: {total_votes}\n--------------------\n')
+    # In the dictionay "candidate vote count list" candidate name as key and count as value and looping through it
     for candidate_name, count in candidate_vote_count_list.items():
         percent = "${:.3f}".format((count/total_votes)*100)
         #finding out the candidate with highest vote counts

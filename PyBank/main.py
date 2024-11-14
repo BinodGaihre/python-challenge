@@ -34,7 +34,7 @@ with open(file_to_load, "r") as financial_data:
         if change_profit_loss>greatest_increase:
             #tracking the greatest increase to a variable based on the condition
             greatest_increase = change_profit_loss
-            #racking the row with greatest increase
+            #tracking the row with greatest increase
             greatest_inc = row
         # Calculate the greatest decrease in losses (month and amount)    
         elif change_profit_loss<greatest_decrease:
