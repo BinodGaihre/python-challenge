@@ -14,9 +14,11 @@
     >total vote counts, individual vote counts with their respective percentage of vote count for poll data in PyPoll.
 ### About the output
 * For PyBank
-    >Totol months - The number of months with the profit/loss data.
+    >Total months - The number of months with the profit/loss data.
     >Total - Sum of the overall profit/loss occured.
-    >Average Change - The average of the total changes changes which happened over the months.
+    >Average Change - The average of the total changes which happened over the months.
     >Greatest increase/decrease in profits - The highest amount of profit gained and the higest amount of profit lost.
 * For PyPoll
-    >
+    >Total Votes - Total number of votes casted.
+    >List of the names of the candidate with their respective vote percentage and vote counts
+    >Name of the Winner with the highest vote count.
